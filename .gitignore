@@ -1,12 +1,38 @@
-*.class
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# OS or Editor folders
+*.iml
+.idea
+.DS_Store
+.cache
+.project
+.settings
+.classpath
+.tmproj
+nbproject
+Thumbs.db
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# Maven output folder
+target
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# Maven git-commit-id-plugin
+morecat-api/src/main/resources/morecat/git.properties
+
+# Gradle
+.gradle
+build
+gradle-app.setting
+out
+
+# JRebel
+rebel.xml
