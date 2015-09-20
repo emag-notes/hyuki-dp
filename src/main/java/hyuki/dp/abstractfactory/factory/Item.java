@@ -1,0 +1,16 @@
+package hyuki.dp.abstractfactory.factory;
+
+/**
+ * @author Yoshimasa Tanabe
+ */
+public abstract class Item {
+
+  protected final String caption;
+
+  public Item(String caption) {
+    this.caption = caption;
+  }
+
+  public abstract String makeHTML();
+
+}
