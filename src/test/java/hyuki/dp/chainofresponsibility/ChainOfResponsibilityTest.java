@@ -23,10 +23,10 @@ public class ChainOfResponsibilityTest {
       .setNext(charlie)
       .setNext(diana)
       .setNext(elmo)
-       .setNext(fred);
+      .setNext(fred);
 
     // Verify
-    for (int i = 0; i < 500; i+=33) {
+    for (int i = 0; i < 500; i += 33) {
       alice.support(new Trouble(i));
     }
   }
