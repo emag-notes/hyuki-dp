@@ -38,7 +38,7 @@ public class LoginFrame extends Frame implements ActionListener, Mediator {
     colleagueChanged();
 
     pack();
-    show();
+    setVisible(true);
   }
 
   @Override
